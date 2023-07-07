@@ -1,0 +1,124 @@
+body {
+    font-family: 'Quicksand';
+    background-color: rgb(188, 219, 200);
+    /* margin: 0; */
+}
+
+header {
+    background-image: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    background-position: center;
+
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oleo Script';
+    color: rgb(240, 221, 115);
+    margin-left: 10px;
+}
+
+.links {
+    margin-right: 50px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.link-holder {
+    margin-right: 50px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.linked {
+    color: yellow;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.information {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    text-align: center;
+    padding: 20px 100px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 405px;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.group {
+    /* background-color: rgb(188, 219, 200); */
+    /* margin-top: -30px; */
+}
+
+.text-holder {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(27, 26, 26);
+}
+
+.content-holder {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+span {
+    color: rgb(92, 206, 92);
+}
+
+ul {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+.destination{
+    margin: 0 20px;
+}
+.boxes img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 2px 4px 8px rgb(1, 34, 13);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(49, 47, 47);
+    height: 50px;
+}
+
+.fa-brands {
+    margin-top: 28px;
+    margin-right: 10px;
+}
